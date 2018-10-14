@@ -44,7 +44,7 @@ package Chapter5.FunctionDemo_01;
  *                 如何调用呢?(有明确返回值的调用)
  *                 A:单独调用，一般来说没有意义。所以不推荐
  *                 B:输出调用，但是不够好，因为我们可能需要针对结果进行进一步的操作
- *                 C:赋值调用
+ *                 C:赋值调用,推荐
  *
  *
  *
@@ -56,20 +56,20 @@ package Chapter5.FunctionDemo_01;
  */
 public class MethodDemo_01 {
     public static void main(String[] args) {
-        int a = 80;
-        int b = 90;
+        int x = 80;
+        int y = 90;
 
         //方式1:单独调用
-        //sum(a,b);
+        //sum(x,y);
 
         //方式2:输出调用
         //System.out.println(sum(a,b));
         //System.out.println(30);
 
         //方式3:赋值调用
-        int result = sum(a,b);
-
-
+        int result = sum(x,y);
+        //在这里可以对result进行操作
+        System.out.println(result);
 
     }
     /**
