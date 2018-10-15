@@ -1,4 +1,4 @@
-package Chapter5.FunctionDemo_01;
+package Chapter5.Function;
 
 /**
  * 方法:完成特定功能的代码块
