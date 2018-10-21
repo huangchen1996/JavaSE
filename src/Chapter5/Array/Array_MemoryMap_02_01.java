@@ -4,7 +4,7 @@ package Chapter5.Array;
  * 定义一个数组，输出该数组的名称和数组元素值
  * 给数组元素赋值，再次输出该数组的名称和数组元素值
  */
-public class Array_MemoryMap_01_02 {
+public class Array_MemoryMap_02_01 {
     public static void main(String[] args) {
     //定义一个数组
     int [] arr = new int[3];

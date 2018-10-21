@@ -6,7 +6,7 @@ package Chapter5.Array;
  * 定义第三个数组，把第一个数组的地址值赋值给它.(注意类型一致),通过第三个数组的名称去把元素重复赋值
  *最后，再次输出第一个数组名称和元素
  */
-public class Array_MemoryMap_03_04 {
+public class Array_MemoryMap_04_03 {
     public static void main(String[] args) {
 
         //定义第一个数组

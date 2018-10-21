@@ -1,6 +1,6 @@
 package Chapter5.Array;
 
-public class Array_MemoryMap_02_03 {
+public class Array_MemoryMap_03_02 {
     /**
      * 定义两个数组，分别输出两个数组各自的数组名及元素值
      * 每个数组元素重新赋值，再次分别输出两个数组各自的数组名及元素值
